@@ -11,7 +11,7 @@
    
 ![img.png](img.png)
 
-3. Definir o tempo que o banco de dados irá guardar a url
+3. Definir o tempo que o banco de dados irá guardar a url (em milisegundos)
 
 ![img_2.png](img_2.png)
 
@@ -20,3 +20,4 @@
 ### How to Use
 1. Make a GET request with "?url=yourUrl" to the endpoint: http://localhost:8080/v1/
 2. The generated link will redirect to the website specified in the URL
+3. Set the time that the database will store the URL (in milliseconds)
