@@ -11,6 +11,8 @@
    
 ![img.png](img.png)
 
+3. Definir o tempo que o banco de dados irá guardar a url
+
 ### How to Use
 1. Make a GET request with "?url=yourUrl" to the endpoint: http://localhost:8080/v1/
 2. The generated link will redirect to the website specified in the URL
