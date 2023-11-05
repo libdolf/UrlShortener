@@ -6,6 +6,7 @@
 1. Fazer uma requisição GET com "?url=suaUrl" no endpoint: http://localhost:8080/v1/
 ![img_1.png](img_1.png)
 2. O Link gerado irá redirecionar para o site colocado na url
+   
 ![img.png](img.png)
 
 ### How to Use
