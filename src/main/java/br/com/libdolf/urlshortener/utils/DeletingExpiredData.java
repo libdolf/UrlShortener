@@ -15,10 +15,10 @@ public class DeletingExpiredData {
 
     private UrlRepository repository;
 
-    @Scheduled(fixedRate = 120000)
+    @Scheduled(fixedRate = 60000)
     public void removeExpiredData(){
         Date dataActual = new Date();
-        Date dataExpiration = new Date(dataActual.getTime() - 120000);
+        Date dataExpiration = new Date(dataActual.getTime() - 60000);
 
         repository.deleteByExpirationDateBefore(dataExpiration);
 
